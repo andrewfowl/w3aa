@@ -1,18 +1,34 @@
 export const events = [
   {
-    id: 'forum-2024',
-    title: 'First Open Forum',
+    id: 'w3aa_01_11-05-2024',
+    title: 'Initial meeting',
     date: 'November 5, 2024',
-    time: '9:00 AM PST',
-    location: 'San Francisco, CA',
-    description: 'Inaugural forum addressing pressing challenges in digital asset accounting.'
+    time: '1:00 PM PST',
+    location: 'Virtual',
+    description: 'First meeting addressing pressing challenges in digital asset accounting.'
   },
   {
-    id: 'standards-workshop',
-    title: 'Standards Workshop',
-    date: 'November 6, 2024',
-    time: '10:00 AM PST',
+    id: 'w3aa_02_11-27-2024',
+    title: 'Meeting #2',
+    date: 'November 27, 2024',
+    time: '4:00 PM EST',
     location: 'Virtual',
-    description: 'Collaborative workshop on developing unified standards for tokenized assets.'
+    description: 'Second meeting addressing pressing challenges in digital asset accounting.'
+  },
+  {
+    id: 'w3aa_03_01-29-2025',
+    title: 'Meeting #3',
+    date: 'January 29, 2024',
+    time: '4:00 PM EST',
+    location: 'Virtual',
+    description: 'Third meeting addressing pressing challenges in digital asset accounting.'
+  },
+  {
+    id: 'w3aa_04_02-26-2025',
+    title: 'Meeting #4',
+    date: 'February 26, 2024',
+    time: '4:00 PM EST',
+    location: 'Virtual',
+    description: 'Fourth meeting addressing pressing challenges in digital asset accounting.'
   }
 ];
