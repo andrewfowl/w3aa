@@ -19,7 +19,7 @@ const QuestionForm: React.FC = () => {
     <div className="py-16 px-6 bg-[#f5f5dc]" id="questions">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center text-black">Submit a Question</h2>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" netlify>
           <div>
             <label className="block text-sm font-medium text-black mb-1">Name</label>
             <input
