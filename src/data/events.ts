@@ -5,7 +5,8 @@ export const events = [
     date: 'November 5, 2024',
     time: '1:00 PM PST',
     location: 'Virtual',
-    description: 'First meeting addressing pressing challenges in digital asset accounting.'
+    description: 'First meeting addressing pressing challenges in digital asset accounting.',
+    URL: 'https://lu.ma/a7k4v2mh'
   },
   {
     id: 'w3aa_02_11-27-2024',
@@ -13,7 +14,8 @@ export const events = [
     date: 'November 27, 2024',
     time: '4:00 PM EST',
     location: 'Virtual',
-    description: 'Second meeting addressing pressing challenges in digital asset accounting.'
+    description: 'Second meeting addressing pressing challenges in digital asset accounting.',
+    URL: 'https://lu.ma/q1q3bbct'
   },
   {
     id: 'w3aa_03_01-29-2025',
@@ -21,7 +23,8 @@ export const events = [
     date: 'January 29, 2024',
     time: '4:00 PM EST',
     location: 'Virtual',
-    description: 'Third meeting addressing pressing challenges in digital asset accounting.'
+    description: 'Third meeting addressing pressing challenges in digital asset accounting.',
+    URL: 'https://lu.ma/p78unbuk'
   },
   {
     id: 'w3aa_04_02-26-2025',
@@ -29,6 +32,7 @@ export const events = [
     date: 'February 26, 2024',
     time: '4:00 PM EST',
     location: 'Virtual',
-    description: 'Fourth meeting addressing pressing challenges in digital asset accounting.'
+    description: 'Fourth meeting addressing pressing challenges in digital asset accounting.',
+    URL: 'https://lu.ma/1pjmm24c'
   }
 ];
