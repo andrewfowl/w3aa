@@ -5,6 +5,7 @@ export interface Event {
   time: string;
   location: string;
   description: string;
+  URL: string;
 }
 
 export interface Question {
