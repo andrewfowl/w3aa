@@ -20,7 +20,7 @@ export const events = [
   {
     id: 'w3aa_03_01-29-2025',
     title: 'Meeting #3',
-    date: 'January 29, 2024',
+    date: 'January 29, 2025',
     time: '4:00 PM EST',
     location: 'Virtual',
     description: 'Third meeting addressing pressing challenges in digital asset accounting.',
@@ -29,7 +29,7 @@ export const events = [
   {
     id: 'w3aa_04_02-26-2025',
     title: 'Meeting #4',
-    date: 'February 26, 2024',
+    date: 'February 26, 2025',
     time: '4:00 PM EST',
     location: 'Virtual',
     description: 'Fourth meeting addressing pressing challenges in digital asset accounting.',
