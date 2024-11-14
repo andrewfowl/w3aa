@@ -1,7 +1,7 @@
 export const events = [
   {
     id: 'w3aa_01_11-05-2024',
-    title: 'Initial meeting',
+    title: 'Meeting #1',
     date: 'November 5, 2024',
     time: '1:00 PM PST',
     location: 'Virtual',
