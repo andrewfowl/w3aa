@@ -32,9 +32,11 @@ const Events: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                <button className="border-2 border-black px-6 py-2 rounded-lg hover:bg-black hover:text-[#f5f5dc] transition-colors whitespace-nowrap">
+                <a href={event.URL}>
+                <button className="border-2 border-black px-6 py-2 rounded-lg hover:bg-black hover:text-[#f5f5dc] transition-colors whitespace-nowrap" >
                   Register
                 </button>
+                </a>
               </div>
             </div>
           ))}
