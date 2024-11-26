@@ -17,7 +17,7 @@ const QuestionForm: React.FC = () => {
       body: new URLSearchParams(formData).toString()})
     console.log('Question submitted:', formData);
     setFormData({ name: '', email: '', topic: '', question: '' });
-  })
+  };
 
 };
   };
