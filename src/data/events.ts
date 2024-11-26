@@ -11,16 +11,14 @@ export const events = [
         
     At our first meeting, we met with James Ting, US Controller at Ripple, and discussed issues related to stablecoin accounting. 
     We identified that accounting for USDT remains a point of significant argument between some practitioners. Currently, the only known 
-    to us ‘official’ stance on this question, is the position taken by Mega Matrix Group in 2023. Mega Matrix Group restated their financial 
-    statements to reclassify USDT out of the financial assets category with the following justification:
-    
-    <<<As Tether reserves the right under its user agreement to redeem USDT by in-kind redemptions of other assets it holds in its reserves and 
-    as Tether has held precious metals and other non-financial assets in its reserves, it does not appear that USDT meets the definition of 
-    a financial instrument under ASC 825-10-20. The Company reclassified USDT, amounting $2,300 as of March 31, 2023, from stable coins to 
-    digital assets. The reclassification had no impact on net assets as of December 31, 2022, and revenues and net loss for the three months 
-    ended March 31, 2023>>>
+    to us ‘official’ stance on this question, is the position taken by Mega Matrix Group in 2023. Mega Matrix Group restated its financial 
+    statements to reclassify USDT out of the financial assets category with the following justification: As Tether reserves the right under its 
+    user agreement to redeem USDT by in-kind redemptions of other assets it holds in its reserves and as Tether has held precious metals and 
+    other non-financial assets in its reserves, it does not appear that USDT meets the definition of a financial instrument under ASC 825-10-20. 
+    The Company reclassified USDT, amounting $2,300 as of March 31, 2023, from stable coins to digital assets. The reclassification had no impact 
+    on net assets as of December 31, 2022, and revenues and net loss for the three months ended March 31, 2023.
         
-    After our meeting we performed an external consultation with the AICPA Accounting and Auditing Hotline and the staff member expressed 
+    After the meeting, we performed an external consultation with the AICPA Accounting and Auditing Hotline. The staff member expressed 
     the view that USDT is appropriate to account for as financial assets. It should be noted that this is not an official position of AICPA, but 
     an individual opinion of a staff who was helping to answer the question.
     
@@ -32,8 +30,8 @@ export const events = [
     their treasury, engage new audiences, lower capital requirements, and drive new revenue.
         
     Founded in 2012, Ripple's vision is to enable a world where value moves as seamlessly as information flows today—an Internet of Value. 
-    Ripple is the only enterprise blockchain company today with products in commercial use. Ripple’s global payments network includes over 300 customers
-    across 40+ countries and six continents..'
+    Ripple is the only enterprise blockchain company today that has products for commercial use. Ripple’s global payments network includes over 300 customers
+    across 40+ countries and six continents.'
   },
   {
     id: 'w3aa_02_11-27-2024',
