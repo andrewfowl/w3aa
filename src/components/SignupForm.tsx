@@ -41,11 +41,12 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
       
       <h2 className="text-2xl font-bold text-black mb-6">Join the Forum</h2>
       
-      <form onSubmit={handleSubmit} className="space-y-4" netlify>
+      <form onSubmit={handleSubmit} className="space-y-4" name="signup" method="POST" netlify>
         <div>
           <label className="block text-sm font-medium text-black mb-1">Name</label>
           <input
             type="text"
+            name="name"
             required
             className="w-full px-3 py-2 border border-black/20 rounded bg-[#f5f5dc] focus:outline-none focus:border-black"
             value={formData.name}
@@ -57,6 +58,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
           <label className="block text-sm font-medium text-black mb-1">Email</label>
           <input
             type="email"
+            name="email"
             required
             className="w-full px-3 py-2 border border-black/20 rounded bg-[#f5f5dc] focus:outline-none focus:border-black"
             value={formData.email}
@@ -68,6 +70,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
           <label className="block text-sm font-medium text-black mb-1">Company</label>
           <input
             type="text"
+            name="company"
             required
             className="w-full px-3 py-2 border border-black/20 rounded bg-[#f5f5dc] focus:outline-none focus:border-black"
             value={formData.company}
@@ -79,6 +82,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
           <label className="block text-sm font-medium text-black mb-1">Role</label>
           <select
             required
+            name="role[]"
             className="w-full px-3 py-2 border border-black/20 rounded bg-[#f5f5dc] focus:outline-none focus:border-black"
             value={formData.role}
             onChange={e => setFormData(prev => ({ ...prev, role: e.target.value }))}
@@ -99,6 +103,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
               <label key={interest} className="flex items-center space-x-2">
                 <input
                   type="checkbox"
+                  name="interest"
                   checked={formData.interests.includes(interest)}
                   onChange={() => handleInterestChange(interest)}
                   className="rounded border-black/20 text-black focus:ring-black"
