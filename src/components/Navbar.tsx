@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSignup }) => {
             onClick={onSignup}
             className="border-2 border-black px-4 py-2 rounded hover:bg-black hover:text-[#f5f5dc] transition-colors"
           >
-            Join Forum
+            Join Alliance
           </button>
         </div>
       </div>
