@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = ({ onSignup }) => {
               onClick={onSignup}
               className="group border-2 border-black px-6 py-3 rounded-lg flex items-center space-x-2 hover:bg-black hover:text-[#f5f5dc] transition-colors"
             >
-              <span>Join the Forum</span>
+              <span>Join Us</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
             <a
