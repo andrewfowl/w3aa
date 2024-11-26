@@ -19,9 +19,6 @@ const QuestionForm: React.FC = () => {
     setFormData({ name: '', email: '', topic: '', question: '' });
   };
 
-};
-  };
-
   return (
     <div className="py-16 px-6 bg-[#f5f5dc]" id="questions">
       <div className="max-w-2xl mx-auto">
