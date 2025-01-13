@@ -41,7 +41,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
       
       <h2 className="text-2xl font-bold text-black mb-6">Join the Forum</h2>
       
-      <form onSubmit={handleSubmit} className="space-y-4" name="signup" method="POST" netlify>
+      <form onSubmit={handleSubmit} className="space-y-4" name="signup" method="POST" data-netlify="true">
         <div>
           <label className="block text-sm font-medium text-black mb-1">Name</label>
           <input
