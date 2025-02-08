@@ -33,4 +33,22 @@ export const past_events=[{
         Founded in 2012, Ripple's vision is to enable a world where value moves as seamlessly as information flows today—an Internet of Value. 
     Ripple is the only enterprise blockchain company today with products in commercial use. Ripple’s global payments network includes over 300 customers
     across 40+ countries and six continents..'
-  }];
+  },
+  {
+    id: 'w3aa_02_11-27-2024',
+    title: 'Meeting #2',
+    date: 'November 27, 2024',
+    time: '4:00 PM EST',
+    location: 'Virtual',
+    description: 'On our second meeting we had representatives from multiple web3 organizations and discussed issues such as web3 accounting education resources, accounting treatment of digital assets under IFRS, and others.',
+    URL: 'https://lu.ma/q1q3bbct'
+  },
+  {
+    id: 'w3aa_03_01-29-2025',
+    title: 'Meeting #3',
+    date: 'January 29, 2025',
+    time: '4:00 PM EST',
+    location: 'Virtual',
+    description: 'Discussion about stablecoin accounting and web3 foundation grants.',
+    URL: 'https://lu.ma/p78unbuk'
+  },];
