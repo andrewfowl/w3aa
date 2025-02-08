@@ -14,7 +14,7 @@ const Hero: React.FC<HeroProps> = ({ onSignup }) => {
             Shaping the Future of Digital Asset Accounting
           </h1>
           <p className="text-lg text-black/80 max-w-2xl mb-8">
-            Join Ripple and TechAccountingPro in establishing unified accounting standards 
+            Join Web3 Accounting Alliance in establishing unified accounting standards 
             for tokenized financial instruments. Be part of the revolution in Web3 accounting.
           </p>
           <div className="flex items-center gap-4">
