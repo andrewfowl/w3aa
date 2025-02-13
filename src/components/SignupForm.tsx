@@ -43,6 +43,9 @@ const SignupForm: React.FC<SignupFormProps> = ({ onClose }) => {
       
       <form className="space-y-4" name="signup" method="POST" data-netlify="true">
         <div>
+            <input type="hidden" name="form-name" value="signup" />
+          </div>
+        <div>
           <label className="block text-sm font-medium text-black mb-1">Name</label>
           <input
             type="text"
