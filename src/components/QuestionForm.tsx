@@ -25,6 +25,9 @@ const QuestionForm: React.FC = () => {
         <h2 className="text-3xl font-bold mb-8 text-center text-black">Submit a Question</h2>
         <form name="QuestionForm" method="POST" className="space-y-6" data-netlify="true">
           <div>
+            <input type="hidden" name="form-name" value="QuestionForm" />
+          </div>
+          <div>
             <label className="block text-sm font-medium text-black mb-1">Name</label>
             <input
               type="text"
